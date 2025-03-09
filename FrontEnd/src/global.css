@@ -1,0 +1,10 @@
+html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Ensure sections have enough spacing */
+  .section {
+    min-height: 100vh;
+    padding: 50px 20px;
+  }
+  

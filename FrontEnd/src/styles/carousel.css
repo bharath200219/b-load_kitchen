@@ -1,0 +1,14 @@
+
+  .carousel-img {
+    width: 100%;           /* Full width */
+    max-height: 400px;     /* Set a reasonable height */
+    object-fit: contain;   /* Ensure the whole image is visible */
+  }
+  
+  /* Adjust height for smaller screens */
+  @media (max-width: 768px) {
+    .carousel-img {
+      max-height: 250px;   /* Reduce height on small screens */
+    }
+  }
+  

@@ -1,0 +1,80 @@
+/* Global Styles */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #f3e5ab; /* Light warm tone */
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+}
+
+/* Navbar Styling */
+.navbar {
+  background-color: #333;
+  padding: 15px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.navbar a {
+  color: white;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.navbar a:hover {
+  background-color: #ff6347;
+  border-radius: 5px;
+}
+
+/* Title Styling */
+.shop-title {
+  text-align: center;
+  margin: 20px;
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #d35400; /* Warm orange */
+}
+
+/* Card Styling */
+.card {
+  border: none;
+  background: #fff5e1; /* Matching warm tone */
+  transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.card-img-top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  height: 180px;
+  object-fit: cover;
+}
+
+/* Button Styling */
+.btn {
+  background-color: #ff6347; /* Tomato color */
+  border: none;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #d35400; /* Darker orange */
+}
+
+/* Footer Styling */
+.footer {
+  text-align: center;
+  background-color: #222;
+  color: white;
+  padding: 15px;
+  margin-top: 30px;
+  font-size: 14px;
+}
